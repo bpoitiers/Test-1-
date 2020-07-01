@@ -1,0 +1,128 @@
+body{
+  background: #fff;
+  color: #000; 
+  font-size: 13px;
+  font-family: 'Work Sans', sans-serif;
+  margin:0px;
+  padding: 0px;
+}
+h1{
+  font-family: 'Work Sans', sans-serif;
+  color:  #BF0000; 
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer{
+height: 80px;
+border-top: 2px;
+padding-top: 30px;
+background-color: red;
+font-weight: bolder;
+text-align: center;
+
+}
+nav li {
+font-size: 15px;
+display: inline-block;
+    text-decoration: none; 
+}
+nav ul {
+margin: 0px;
+padding: 0px;
+}
+nav {
+width: 100%;
+background-color: #BF0000;
+text-align: center;
+font-weight: bolder;
+text-decoration: none;
+font-family: 'Work Sans', sans-serif;
+}
+nav a {
+padding: 20px 30px;
+float: left;
+list-style-type: none;
+}
+footer {
+  background-color: #ACACAC;
+}
+h3 {
+font-weight: bolder;
+font-size: 15px;
+padding-left: 20px;  
+}
+h2 {
+font-weight: bolder;
+font-size: 30px;
+padding-left: 20px;  
+}
+
+h5 {
+font-weight: bolder;
+font-size: 25px;
+color: #BF0000 
+}
+
+.menu{
+display: table;
+margin : 0 auto;
+}
+#bandeannonce{
+height: 500px;
+
+}
+.container{
+margin: 0px 10%;
+
+}
+.left{
+float: left;
+width: 50%
+}
+.right{
+float: left;
+width: 50%
+}
+#casting{
+  margin: 0 auto;
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: left;
+}
+ .feature {border: 1px solid #BF0000; 
+          margin: 10px;
+          padding: 10px 0;
+          text-align: center;
+          width: 350px;
+          background: #BF0000;
+}
+#realisateurs{
+  margin: 0 auto;
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: left;
+  }
+  .loveactually {
+    width: 50%; 
+    height: 115%; 
+    align-items: center; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  
+
+/* Sur tout type d'écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media all and (max-width: 1280px)
+
+/* Sur tout type d'écrans, quand la largeur est comprise entre 1024 et 1280px */
+@media all and (min-width: 780px) and (max-width: 1280px)
+
+/* Sur tout type d'écrans orientés verticalement */
+@media all and (orientation : portrait)
